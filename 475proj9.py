@@ -15,11 +15,16 @@ Output:
     Word 2 - Word 3:  0.998
     Word 1 - Word 3:  0.095
 ********
-Looking at this, word 1 is likely "king" as it relates most to word 2, which appears to be "queen"
-Word 2 is "queen" as it relates highly to word 3 and higher to word 1 (king) than word 3 relates to 
-    word 1 (king), indicating association with royalty in "king" and "queen"
-Word 3 is likely "woman" as it has a high relation to word 2 (queen) as they are genderized the same
-    and very little relation to word 1 (king) was "woman" neither is masculine or describing royalty
+Word 1 is likely "woman"
+Word 2 is likely "queen"
+Word 3 is likely "king"
+
+Woman and Queen are slightly related in gender, however, are rarley used in the same context as they both refer
+    to individuals so saying something like "she was a woman queen" is redundant. 
+    
+Queen and King are often used in the same context. "They were the king and queen". Because of this they are highly related
+
+King and woman are very rarley used together. They do not share a gender or a royal status. 
 """
 import math # used for square root
 
